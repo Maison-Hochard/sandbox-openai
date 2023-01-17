@@ -5,7 +5,7 @@
   "main": "script.js",
   "scripts": {
     "start": "node script.js",
-    "start-arg": "node script.js -d test"
+    "start-arg": "node script.js -m 1 -p \"Donne moi de beaux prénoms pour mon enfant\""
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "axios": "^1.2.2",
     "commander": "^7.2.0",
     "console-stamp": "^3.0.3",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0"
   }
 }

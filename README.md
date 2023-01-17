@@ -1,24 +1,17 @@
-# Sandbox Script Template
+# Sandbox for testing the OpenAI API
 
-## Use correct node version
-```
-nvm use
-```
+## USAGE
 
-## Install dependencies
-```
-yarn install
-```
+### node script.js -m MODEL -p PROMPT
 
-## Run the script
-```
-yarn start
-```
-or
-```
-node script.js <args>
+If you want tu use Davinci Model use the following command:
+
+```bash
+node script.js -m 1 -p PROMPT
 ```
 
+If you want tu use Curie Model use the following command:
 
-If there any problem with NVM or Yarn here is the tutoriel to install both of them
-https://www.notion.so/hugorichard/Astuce-Code-0c60e5515d244294b314e00421291607
+```bash
+node script.js -m 2 -p PROMPT
+```
